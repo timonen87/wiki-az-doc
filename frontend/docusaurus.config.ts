@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/',
+            'https://github.com/timonen87/wiki-az-doc/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/',
+            'https://github.com/timonen87/wiki-az-doc/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,7 +77,7 @@ const config: Config = {
           "position": "left"
         },
         {
-          href: 'https://github.com/timonen87/wiki-az-doc/',
+          href: 'https://github.com/timonen87/wiki-az-doc/tree/main',
           label: 'GitHub',
           position: 'right',
         },
