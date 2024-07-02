@@ -1,7 +1,6 @@
 version: '3.9'
 
 services:
-
   frontend:
     build:
       context: ../frontend
@@ -19,8 +18,8 @@ services:
     image: nginx:latest
     restart: unless-stopped
     ports:
-      - "80:80"
-      - "743:443"
+      - "980:80"
+      - "9443:443"
     volumes:
       - ./nginx/:/etc/nginx/templates:rw
       - ./certbot/conf/:/etc/letsencrypt/:rw
