@@ -70,7 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'База знаний',
         },
-        {to: '/blog', label: 'Блог', position: 'left'},
+        // {to: '/blog', label: 'Блог', position: 'left'},
         {
           "to": "https://wikiapp.ru",
           "label": "WikiApp",
@@ -90,43 +90,36 @@ const config: Config = {
           title: 'Документиция',
           items: [
             {
-              label: 'Tutorial',
+              label: 'База знаний',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
-          items: [
+          title: 'Каталог продукции',
+          "items": [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              "label": "WikiApp",
+              "href": "https://wikiapp.ru/"
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+ 
           ],
         },
         {
-          title: 'More',
-          items: [
+          title: 'Разное',
+          "items": [
             {
-              label: 'Blog',
-              to: '/blog',
+              "label": "Блог",
+              "to": "/blog"
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+              "label": "GitHub",
+              "href": "https://github.com/timonen87/wiki-az-doc/"
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wiki OOO AZ.`,
     },
     prism: {
       theme: prismThemes.github,

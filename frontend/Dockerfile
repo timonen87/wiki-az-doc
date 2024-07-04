@@ -15,21 +15,16 @@
 # ENV NPM_CONFIG_COLOR=false
 
 # # We'll run the app as the `node` user, so put it in their home directory
-# RUN mkdir /app && chown node:node /app
-# WORKDIR /app
+# WORKDIR /home/node/app
 # # Copy the source code over
+# COPY --chown=node:node . /home/node/app/
 
-# # USER node
-# COPY --chown=node:node package.json package-lock.json* ./
-
-# COPY --chown=node:node . .
 # ## Development #################################################################
 # # Define a development target that installs devDeps and runs in dev mode
 # FROM base as development
-# # WORKDIR /app
+# WORKDIR /home/node/app
 # # Install (not ci) with dependencies, and for Linux vs. Linux Musl (which we use for -alpine)
 # RUN npm install
-# # RUN npm run build
 # # Switch to the node user vs. root
 # USER node
 # # Expose port 3000
@@ -37,20 +32,20 @@
 # # Start the app in debug mode so we can attach the debugger
 # CMD ["npm", "start"]
 
-# ## Production ##################################################################
-# # Also define a production target which doesn't use devDeps
+## Production ##################################################################
+# Also define a production target which doesn't use devDeps
 # FROM base as production
-# WORKDIR /app
-# COPY --chown=node:node --from=development ./app/node_modules /app/node_modules
+# WORKDIR /home/node/app
+# COPY --chown=node:node --from=development /home/node/app/node_modules /home/node/app/node_modules
 # # Build the Docusaurus app
 # RUN npm run build
 
-# # ## Deploy ######################################################################
-# # # Use a stable nginx image
-# # FROM nginx:stable-alpine as deploy
-# # WORKDIR /home/node/app
-# # # Copy what we've installed/built from production
-# # COPY --chown=node:node --from=production /home/node/app/build /usr/share/nginx/html/
+## Deploy ######################################################################
+# Use a stable nginx image
+# FROM nginx:stable-alpine as deploy
+# WORKDIR /home/node/app
+# # Copy what we've installed/built from production
+# COPY --chown=node:node --from=production /home/node/app/build /usr/share/nginx/html/
 
 # syntax=docker/dockerfile:1
 
@@ -90,10 +85,3 @@ FROM prod as serve
 EXPOSE 3000
 ## Run the production server.
 CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--no-open"]
-
-# # Stage 3b: Serve with Caddy.
-# FROM caddy:2-alpine as caddy
-# ## Copy the Caddyfile.
-# COPY --from=prod /opt/docusaurus/Caddyfile /etc/caddy/Caddyfile
-# ## Copy the Docusaurus build output.
-# COPY --from=prod /opt/docusaurus/build /var/docusaurus
