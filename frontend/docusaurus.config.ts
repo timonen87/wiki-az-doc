@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'us',
-    locales: ['us'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/tree/main',
+            'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/tree/main',
+            'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,7 +77,7 @@ const config: Config = {
           "position": "left"
         },
         {
-          href: 'https://github.com/timonen87/wiki-az-doc/tree/main',
+          href: 'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
           label: 'GitHub',
           position: 'right',
         },
@@ -108,10 +108,7 @@ const config: Config = {
         {
           title: 'Разное',
           "items": [
-            {
-              "label": "Блог",
-              "to": "/blog"
-            },
+          
             {
               "label": "GitHub",
               "href": "https://github.com/timonen87/wiki-az-doc/"
