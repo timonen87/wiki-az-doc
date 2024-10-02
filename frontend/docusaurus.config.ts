@@ -25,8 +25,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'us',
-    locales: ['us'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -38,14 +38,14 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/tree/main',
+            'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/timonen87/wiki-az-doc/tree/main',
+            'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,7 +77,7 @@ const config: Config = {
           "position": "left"
         },
         {
-          href: 'https://github.com/timonen87/wiki-az-doc/tree/main',
+          href: 'https://github.com/timonen87/wiki-az-doc/tree/main/frontend',
           label: 'GitHub',
           position: 'right',
         },
@@ -90,43 +90,33 @@ const config: Config = {
           title: 'Документиция',
           items: [
             {
-              label: 'Tutorial',
+              label: 'База знаний',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
-          items: [
+          title: 'Каталог продукции',
+          "items": [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              "label": "WikiApp",
+              "href": "https://wikiapp.ru/"
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+ 
           ],
         },
         {
-          title: 'More',
-          items: [
+          title: 'Разное',
+          "items": [
+          
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+              "label": "GitHub",
+              "href": "https://github.com/timonen87/wiki-az-doc/"
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wiki OOO AZ.`,
     },
     prism: {
       theme: prismThemes.github,

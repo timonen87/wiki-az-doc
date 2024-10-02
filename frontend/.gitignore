@@ -3,7 +3,7 @@
 
 # Production
 /build
-/img
+img/
 
 # Generated files
 .docusaurus

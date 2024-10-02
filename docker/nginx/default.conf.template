@@ -1,7 +1,7 @@
+
 upstream frontend {
     server frontend:3033;
 }
-
 server {
     listen 80;
     server_tokens off;

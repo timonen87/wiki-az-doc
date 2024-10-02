@@ -7,17 +7,6 @@ volumes:
 
 services:
 
-  # frontend:
-  #   build:
-  #     context: ../frontend
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - '3000:3000'
-  #   env_file:
-  #     - ./.env
-  #   volumes:
-  #     - frontend_volume:/app/result_build/build/:rw
-
   frontend:
     build:
       context: ../frontend
@@ -28,7 +17,6 @@ services:
       - ./.env
     volumes:
       - frontend_volume:/home/node/result_build/build/:rw
-
 
 
   nginx:
