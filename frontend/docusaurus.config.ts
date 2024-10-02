@@ -70,7 +70,7 @@ const config: Config = {
           position: 'left',
           label: 'База знаний',
         },
-        {to: '/blog', label: 'Блог', position: 'left'},
+        // {to: '/blog', label: 'Блог', position: 'left'},
         {
           "to": "https://wikiapp.ru",
           "label": "WikiApp",

@@ -1,0 +1,6 @@
+# Dependencies
+/deployment
+
+# Production
+/build
+/img
