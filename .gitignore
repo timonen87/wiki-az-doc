@@ -1,11 +1,4 @@
 # Dependencies
-<<<<<<< HEAD
-/deployment
-
-# Production
-/build
-/img
-=======
 /node_modules
 
 # Production
@@ -27,4 +20,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
->>>>>>> 5bc8baa8f1d6b9755a36be9eb06f4e52ea7f33de

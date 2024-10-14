@@ -1,0 +1,66 @@
+version: '3.9'
+
+volumes:
+  frontend_volume: {}
+
+
+
+services:
+
+  frontend:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3033:3000'
+    env_file:
+      - ./.env
+    volumes:
+      - frontend_volume:/home/node/result_build/build/:rw
+
+
+  # nginx:
+  #   image: nginx:1.23.3
+  #   # монтируем директорию nginx и сертификат с ключом
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     # - ./nginx/cert.pem:/etc/cert.pem
+  #     # - ./nginx/key.pem:/etc/key.pem
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+
+
+  # certbot:
+  #   ports:
+  #     - "6000:80"
+  #   env_file:
+  #     - ./.env
+  #   # и снова мониторуем директорию nginx
+  #   volumes:
+  #     - ./nginx/:/etc/nginx/
+  #   build:
+  #     context: ./certbot
+  #     dockerfile: Dockerfile
+  #     # задаем переменные среды
+  #     args:
+  #       DOMAIN_EMAIL: ${DOMAIN_EMAIL}
+  #       DOMAIN_URL: ${DOMAIN_URL}
+
+
+
+  # nginx:
+  #   image: nginx:latest
+  #   restart: unless-stopped
+  #   ports:
+  #     - "980:80"
+  #     - "9443:443"
+  #   volumes:
+  #     - ./nginx/:/etc/nginx/templates:rw
+  #     - ./certbot/conf/:/etc/letsencrypt/:rw
+  #     - ./certbot/www/:/var/www/certbot/:rw
+  #     - frontend_volume:/usr/share/nginx/html/:ro
+  #   command: '/bin/sh -c ''while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g "daemo>    depends_on:
+  #     - frontend
+  #   env_file:
+  #     - ./.env
