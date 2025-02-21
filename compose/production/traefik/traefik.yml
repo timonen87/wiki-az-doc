@@ -4,7 +4,7 @@ log:
 entryPoints:
   web:
     # http
-    address: ":82"
+    address: ":80"
     http:
       # https://doc.traefik.io/traefik/routing/entrypoints/#entrypoint
       redirections:
@@ -13,7 +13,7 @@ entryPoints:
 
   web-secure:
     # https
-    address: ":445"
+    address: ":443"
 
 certificatesResolvers:
   letsencrypt:
