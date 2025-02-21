@@ -58,9 +58,9 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "WIKI AZ",
+      title: "Docs AZ",
       logo: {
-        alt: "WIKI AZ Logo",
+        alt: "Docs AZ Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -72,8 +72,8 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Блог', position: 'left'},
         {
-          to: "https://wikiapp.ru",
-          label: "WikiApp",
+          to: "https://wiki.azcompany.ru",
+          label: "Wiki azcompany",
           position: "left",
         },
         {
@@ -99,8 +99,8 @@ const config: Config = {
           title: "Каталог продукции",
           items: [
             {
-              label: "WikiApp",
-              href: "https://wikiapp.ru/",
+              label: "Wiki azcompany",
+              href: "https://wiki.azcompany.ru/",
             },
           ],
         },

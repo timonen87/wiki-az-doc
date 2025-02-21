@@ -1,23 +1,19 @@
-version: '3.9'
+version: "3.9"
 
 volumes:
-  frontend_volume: {}
-
-
+  app_volume: {}
 
 services:
-
-  frontend:
+  app: &app
     build:
-      context: ../frontend
-      dockerfile: Dockerfile
-    ports:
-      - '3033:3000'
+      context: .
+      dockerfile: ./compose/production/docusaurus/Dockerfile
+    # ports:
+    #   - '3033:3000'
     env_file:
       - ./.env
     volumes:
-      - frontend_volume:/home/node/result_build/build/:rw
-
+      - app_volume:/home/node/result_build/build/:rw
 
   # nginx:
   #   image: nginx:1.23.3
@@ -29,7 +25,6 @@ services:
   #   ports:
   #     - "80:80"
   #     - "443:443"
-
 
   # certbot:
   #   ports:
@@ -46,8 +41,6 @@ services:
   #     args:
   #       DOMAIN_EMAIL: ${DOMAIN_EMAIL}
   #       DOMAIN_URL: ${DOMAIN_URL}
-
-
 
   # nginx:
   #   image: nginx:latest

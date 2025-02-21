@@ -1,0 +1,83 @@
+volumes:
+  app_volume: {}
+  production_traefik: {}
+  production_app_docs: {}
+  production_app_media: {}
+
+services:
+  # django: &django
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/django/Dockerfile
+  #
+  #   image: wikiapp_production_django
+  #   volumes:
+  #     - production_django_media:/app/wikiapp/media
+  #   depends_on:
+  #     - postgres
+  #     - redis
+  #   env_file:
+  #     - ./.envs/.production/.django
+  #     - ./.envs/.production/.postgres
+  #   command: /start
+  #
+  app: &app
+    build:
+      context: .
+      dockerfile: ./compose/production/docusaurus/Dockerfile
+    # ports:
+    #   - '3033:3000'
+    env_file:
+      - ./.env
+    volumes:
+      - app_volume:/home/node/result_build/build/:rw
+
+  # postgres:
+  #   build:
+  #     context: .
+  #     dockerfile: ./compose/production/postgres/Dockerfile
+  #   image: wikiapp_production_postgres
+  #   volumes:
+  #     - production_postgres_data:/var/lib/postgresql/data
+  #     - production_postgres_data_backups:/backups
+  #   env_file:
+  #     - ./.envs/.production/.postgres
+  #
+  # pgadmin:
+  #   image: dpage/pgadmin4:latest
+  #   env_file:
+  #     - ./.envs/.production/.pgadmin
+  #   ports:
+  #     - "6655:80"
+  #   volumes:
+  #     - wikiapp_pgadmin4_data:/var/lib/pgadmin
+  #   depends_on:
+  #     - postgres
+  #
+  #   restart: always
+
+  traefik:
+    build:
+      context: .
+      dockerfile: ./compose/production/traefik/Dockerfile
+    image: app_production_traefik
+    depends_on:
+      - app
+    volumes:
+      - production_traefik:/etc/traefik/acme
+    ports:
+      - "0.0.0.0:80:80"
+      - "0.0.0.0:443:443"
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./compose/production/nginx/Dockerfile
+    image: app_production_nginx
+    ports:
+      - 1118:80
+    depends_on:
+      - app
+    volumes:
+      - production_app_docs:/usr/share/nginx/upload-media:ro
+      - production_app_media:/usr/share/nginx/media:ro
