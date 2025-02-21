@@ -22,14 +22,13 @@ FROM node:lts as base
 ## Disable colour output from yarn to make logs easier to read.
 
 # Stage 2b: Production build mode.
-FROM base as prod
 ## Set the working directory to `/opt/docusaurus`.
 WORKDIR /app/docs
 ## Copy over the source code.
 COPY . /app/docs/
 
 ## Install dependencies with `--immutable` to ensure reproducibility.
-RUN npm ci
+RUN npm i
 ## Build the static site.
 RUN npm run build
 
