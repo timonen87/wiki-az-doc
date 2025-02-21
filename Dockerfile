@@ -15,7 +15,6 @@ FROM node:lts as base
 # ## Expose the port that Docusaurus will run on.
 # EXPOSE 5050
 # ## Run the development server.
-# CMD [ -d "node_modules" ] && npm run start --host 0.0.0.0 --poll 1000 || npm run install && npm run start --host 0.0.0.0 --poll 1000
 #
 # Stage 2b: Production build mode.
 FROM base as prod
@@ -24,7 +23,7 @@ WORKDIR /opt/docusaurus
 ## Copy over the source code.
 COPY . /opt/docusaurus/
 ## Install dependencies with `--immutable` to ensure reproducibility.
-# RUN npm ci
+RUN npm ci
 ## Build the static site.
 RUN npm run build
 
