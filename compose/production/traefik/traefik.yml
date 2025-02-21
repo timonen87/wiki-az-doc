@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     web-secure-router:
-      rule: "Host(`docs.azcompany.ru`) || Host(`www.docs.azcompany.ru`)"
+      rule: "Host(`docs.wikiapp.ru`) || Host(`www.docs.wikiapp.ru`) && PathPrefix(`/`)"
       entryPoints:
         - web-secure
       middlewares:
