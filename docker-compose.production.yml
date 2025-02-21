@@ -66,8 +66,8 @@ services:
     volumes:
       - production_traefik:/etc/traefik/acme
     ports:
-      - "0.0.0.0:82:82"
-      - "0.0.0.0:445:445"
+      - "0.0.0.0:82:80"
+      - "0.0.0.0:445:443"
 
   nginx:
     build:

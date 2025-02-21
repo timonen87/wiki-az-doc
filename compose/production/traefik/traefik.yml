@@ -51,7 +51,7 @@ http:
         certResolver: letsencrypt
 
     web-media-router:
-      rule: "(Host(`docs.azcompany.ru`) || Host(`www.dics.azcompany.ru`) && PathPrefix(`/docs/`)"
+      rule: "(Host(`docs.azcompany.ru`) || Host(`www.docs.azcompany.ru`))"
 
       entryPoints:
         - web-secure
