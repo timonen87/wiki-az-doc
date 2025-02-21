@@ -29,7 +29,7 @@ services:
     env_file:
       - ./.env
     volumes:
-      - app_volume:/home/node/result_build/build/:rw
+      - app_volume:/home/node/app/build/:rw
 
   # postgres:
   #   build:
@@ -78,4 +78,4 @@ services:
     depends_on:
       - app
     volumes:
-      - production_app_docs:/usr/share/nginx/docs:ro
+      - production_app_docs:/usr/share/nginx/html/:ro

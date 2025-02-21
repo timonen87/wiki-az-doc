@@ -2,7 +2,6 @@ volumes:
   app_volume: {}
   production_traefik: {}
   production_app_docs: {}
-  production_app_media: {}
 
 services:
   # django: &django
@@ -30,7 +29,7 @@ services:
     env_file:
       - ./.env
     volumes:
-      - app_volume:/home/node/result_build/build/:rw
+      - app_volume:/home/node/app/build/:rw
 
   # postgres:
   #   build:
@@ -80,5 +79,4 @@ services:
     depends_on:
       - app
     volumes:
-      - production_app_docs:/usr/share/nginx/upload-media:ro
-      - production_app_media:/usr/share/nginx/media:ro
+      - production_app_docs:/usr/share/nginx/html/:ro

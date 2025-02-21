@@ -1,16 +1,23 @@
-FROM node:alpine
-## Disable colour output from yarn to make logs easier to read.
+## Base ########################################################################
+# Use a larger node image to do the build for native deps (e.g., gcc, python)
+FROM node:lts
 
-# Stage 2b: Production build mode.
-## Set the working directory to `/opt/docusaurus`.
-RUN mkdir /app
-WORKDIR /app
-## Copy over the source code.
-COPY . /app
-## Install dependencies with `--immutable` to ensure reproducibility.
+# Reduce npm log spam and colour during install within Docker
+ENV NPM_CONFIG_LOGLEVEL=warn
+ENV NPM_CONFIG_COLOR=false
+
+# We'll run the app as the `node` user, so put it in their home directory
+WORKDIR /home/node/app
+# Copy the source code over
+COPY --chown=node:node . /home/node/app/
+
 RUN npm install
+
 RUN npm run build
 
+USER node
+# Expose port 3000
 EXPOSE 3000
-## Run the production server.
+
 CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--no-open"]
+
