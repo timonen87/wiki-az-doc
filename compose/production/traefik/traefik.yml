@@ -6,7 +6,7 @@ entryPoints:
     # http
     address: ":80"
     http:
-      # https://doc.traefik.io/traefik/routing/entrypoints/#entrypoint
+      # https://docs.traefik.io/routing/entrypoints/#entrypoint
       redirections:
         entryPoint:
           to: web-secure
@@ -17,30 +17,28 @@ entryPoints:
 
 certificatesResolvers:
   letsencrypt:
-    # https://doc.traefik.io/traefik/https/acme/#lets-encrypt
+    # https://docs.traefik.io/master/https/acme/#lets-encrypt
     acme:
-      email: "timonen.as@mail.com"
+      email: "timonen.as@gmail.com"
       storage: /etc/traefik/acme/acme.json
-      # https://doc.traefik.io/traefik/https/acme/#httpchallenge
+      # https://docs.traefik.io/master/https/acme/#httpchallenge
       httpChallenge:
         entryPoint: web
 
 http:
   routers:
-    web-secure-router:
-      rule: "Host(`docs.wikiapp.ru`) || Host(`www.docs.wikiapp.ru`) && PathPrefix(`/`)"
+    vue-secure-router:
+      rule: "Host(`docs.azcompany.ru`) || Host(`www.docs.azcompany.ru`)"
       entryPoints:
         - web-secure
-      middlewares:
-        - csrf
       service: app
       tls:
-        # https://doc.traefik.io/traefik/routing/routers/#certresolver
+        # https://docs.traefik.io/master/routing/routers/#certresolver
         certResolver: letsencrypt
 
   middlewares:
     csrf:
-      # https://doc.traefik.io/traefik/master/middlewares/http/headers/#hostsproxyheaders
+      # https://docs.traefik.io/master/middlewares/headers/#hostsproxyheaders
       # https://docs.djangoproject.com/en/dev/ref/csrf/#ajax
       headers:
         hostsProxyHeaders: ["X-CSRFToken"]
@@ -52,7 +50,7 @@ http:
           - url: http://app:3000
 
 providers:
-  # https://doc.traefik.io/traefik/master/providers/file/
+  # https://docs.traefik.io/master/providers/file/
   file:
     filename: /etc/traefik/traefik.yml
     watch: true
