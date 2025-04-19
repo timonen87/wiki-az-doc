@@ -8,7 +8,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.azcompany.ru",
+  url: "https://wikiaz.ru",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -54,13 +54,44 @@ const config: Config = {
     ],
   ],
 
+  plugins: [require.resolve("docusaurus-plugin-image-zoom")],
+
+  themes: [
+    // ... Your other themes.
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+
+        // For Docs using Chinese, it is recomended to set:
+        language: ["en", "ru"],
+
+        // If you're using `noIndex: true`, set `forceIgnoreNoIndex` to enable local index:
+        // forceIgnoreNoIndex: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
+    zoom: {
+      selector: ".markdown :not(em) > img",
+      background: {
+        light: "rgb(255, 255, 255)",
+        dark: "rgb(50, 50, 50)",
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      },
+    },
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Docs AZ",
+      title: "WIKI AZ",
       logo: {
-        alt: "Docs AZ Logo",
+        alt: "WIKI AZ Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -72,8 +103,8 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Блог', position: 'left'},
         {
-          to: "https://wiki.azcompany.ru",
-          label: "Wiki azcompany",
+          to: "https://wikiapp.ru",
+          label: "WikiApp",
           position: "left",
         },
         {
@@ -99,8 +130,8 @@ const config: Config = {
           title: "Каталог продукции",
           items: [
             {
-              label: "Wiki azcompany",
-              href: "https://wiki.azcompany.ru/",
+              label: "WikiApp",
+              href: "https://wikiapp.ru/",
             },
           ],
         },
