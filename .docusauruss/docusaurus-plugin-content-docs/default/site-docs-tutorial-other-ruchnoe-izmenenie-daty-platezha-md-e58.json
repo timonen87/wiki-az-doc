@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/ruchnoe-izmenenie-daty-platezha",
+  "title": "Изменение дата платежа",
+  "description": "Ручное изменение даты платежа",
+  "source": "@site/docs/tutorial-other/ruchnoe-izmenenie-daty-platezha.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/ruchnoe-izmenenie-daty-platezha",
+  "permalink": "/docs/tutorial-other/ruchnoe-izmenenie-daty-platezha",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/ruchnoe-izmenenie-daty-platezha.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Иерархия номенклатуры",
+    "permalink": "/docs/tutorial-other/ierarkhiya-nomenklatury"
+  },
+  "next": {
+    "title": "Корректировка реализации приобретения до ввода остатков",
+    "permalink": "/docs/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov"
+  }
+}

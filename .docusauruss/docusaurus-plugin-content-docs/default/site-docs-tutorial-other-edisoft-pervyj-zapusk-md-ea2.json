@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/edisoft-pervyj-zapusk",
+  "title": "Едисофт первый запуск",
+  "description": "Запуск модуля ЭДО Едисофт",
+  "source": "@site/docs/tutorial-other/edisoft-pervyj-zapusk.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/edisoft-pervyj-zapusk",
+  "permalink": "/docs/tutorial-other/edisoft-pervyj-zapusk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/edisoft-pervyj-zapusk.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Доставка (добавление распоряжений с других складов)",
+    "permalink": "/docs/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov"
+  },
+  "next": {
+    "title": "Загрузка маркетинго-логистических параметров",
+    "permalink": "/docs/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov"
+  }
+}

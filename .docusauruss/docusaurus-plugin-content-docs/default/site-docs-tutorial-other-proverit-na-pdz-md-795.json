@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/proverit-na-pdz",
+  "title": "Проверить на ПДЗ",
+  "description": "В список документов продажи добавлена новая команда «Проверить на ПДЗ».",
+  "source": "@site/docs/tutorial-other/proverit-na-pdz.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/proverit-na-pdz",
+  "permalink": "/docs/tutorial-other/proverit-na-pdz",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/proverit-na-pdz.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 31,
+  "frontMatter": {
+    "sidebar_position": 31
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Предоплатные клиенты",
+    "permalink": "/docs/tutorial-other/predoplatnye-klienty"
+  },
+  "next": {
+    "title": "Проверка корректности дебиторской задолженности",
+    "permalink": "/docs/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti"
+  }
+}

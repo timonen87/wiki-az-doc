@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov",
+  "title": "Доставка (добавление распоряжений с других складов)",
+  "description": "Склады для подбора распоряжений",
+  "source": "@site/docs/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov",
+  "permalink": "/docs/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Добавление отбора в отчет Все отгруженные накладные",
+    "permalink": "/docs/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye"
+  },
+  "next": {
+    "title": "Едисофт первый запуск",
+    "permalink": "/docs/tutorial-other/edisoft-pervyj-zapusk"
+  }
+}

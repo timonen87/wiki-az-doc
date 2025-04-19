@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-ecomm/instrukciya-yandeksmarket",
+  "title": "Инструкция ЯндексМаркет",
+  "description": "Инструкция написана для версии 1.0.2.11.",
+  "source": "@site/docs/tutorial-ecomm/instrukciya-yandeksmarket.md",
+  "sourceDirName": "tutorial-ecomm",
+  "slug": "/tutorial-ecomm/instrukciya-yandeksmarket",
+  "permalink": "/docs/tutorial-ecomm/instrukciya-yandeksmarket",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-ecomm/instrukciya-yandeksmarket.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Инструкция Wildberries",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-wildberries"
+  },
+  "next": {
+    "title": "Инструкция Ozon",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-ozon"
+  }
+}

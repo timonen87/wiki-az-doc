@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10",
+  "title": "2024-04-10 Обновление  УТ и Бухгалтерии",
+  "description": "Изменения касаются одновременно двух конфигураций – Бухгалтерии и Управления торговлей.",
+  "source": "@site/docs/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10.md",
+  "sourceDirName": "tutorial-update-install",
+  "slug": "/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10",
+  "permalink": "/docs/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2024-04-04 Обновление",
+    "permalink": "/docs/tutorial-update-install/obnovlenie-2024-04-04"
+  },
+  "next": {
+    "title": "Установка категорий по списку товара",
+    "permalink": "/docs/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara"
+  }
+}

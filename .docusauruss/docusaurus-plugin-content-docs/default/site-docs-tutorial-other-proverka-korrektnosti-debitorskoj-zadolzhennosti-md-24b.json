@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti",
+  "title": "Проверка корректности дебиторской задолженности",
+  "description": "Дебиторская задолженность проверяется по отчету «Задолженность клиентов по срокам (AZ)» (Раздел Продажи – Отчеты по продажам»",
+  "source": "@site/docs/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti",
+  "permalink": "/docs/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 32,
+  "frontMatter": {
+    "sidebar_position": 32
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Проверить на ПДЗ",
+    "permalink": "/docs/tutorial-other/proverit-na-pdz"
+  },
+  "next": {
+    "title": "Рабочее место установки Отгружено",
+    "permalink": "/docs/tutorial-other/rabochee-mesto-ustanovki-otgruzheno"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "tutorial-update-install/ustanovka-cen",
+  "title": "Установка цен",
+  "description": "Вид цены в соглашении",
+  "source": "@site/docs/tutorial-update-install/ustanovka-cen.md",
+  "sourceDirName": "tutorial-update-install",
+  "slug": "/tutorial-update-install/ustanovka-cen",
+  "permalink": "/docs/tutorial-update-install/ustanovka-cen",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-update-install/ustanovka-cen.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Установка новой весрии программы 8.3.23.2040",
+    "permalink": "/docs/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040"
+  }
+}

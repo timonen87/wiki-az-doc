@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury",
+  "title": "Создание предварительной карточки Номенклатуры",
+  "description": "Шаблон для внесения номенклатуры в базу",
+  "source": "@site/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury",
+  "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 35,
+  "frontMatter": {
+    "sidebar_position": 35
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Себестоимость приобретения до расчета себестоимости",
+    "permalink": "/docs/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti"
+  },
+  "next": {
+    "title": "Создание предварительной карточки Партнера",
+    "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme",
+  "title": "Использование схемы импорт в пути полная",
+  "description": "Использование схемы \"Товары в пути\" для оформления закупок по импорту в системе \"1СКА\" 2.4, \"1С:ERP\" 2.4",
+  "source": "@site/docs/tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme.md",
+  "sourceDirName": "tutorial-import",
+  "slug": "/tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme",
+  "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Импорт",
+    "permalink": "/docs/category/импорт"
+  },
+  "next": {
+    "title": "Использование схемы Импорт в пути Поступление товара",
+    "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara"
+  }
+}

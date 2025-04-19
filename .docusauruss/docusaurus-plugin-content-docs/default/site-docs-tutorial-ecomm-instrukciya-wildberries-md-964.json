@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-ecomm/instrukciya-wildberries",
+  "title": "Инструкция Wildberries",
+  "description": "Инструкция написана для версии 2.0.4.10.",
+  "source": "@site/docs/tutorial-ecomm/instrukciya-wildberries.md",
+  "sourceDirName": "tutorial-ecomm",
+  "slug": "/tutorial-ecomm/instrukciya-wildberries",
+  "permalink": "/docs/tutorial-ecomm/instrukciya-wildberries",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-ecomm/instrukciya-wildberries.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Инструкция СберМегаМаркет",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-sbermegamarket"
+  },
+  "next": {
+    "title": "Инструкция ЯндексМаркет",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-yandeksmarket"
+  }
+}

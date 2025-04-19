@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/rabochee-mesto-ustanovki-otgruzheno",
+  "title": "Рабочее место установки Отгружено",
+  "description": "Открытие рабочего места",
+  "source": "@site/docs/tutorial-other/rabochee-mesto-ustanovki-otgruzheno.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/rabochee-mesto-ustanovki-otgruzheno",
+  "permalink": "/docs/tutorial-other/rabochee-mesto-ustanovki-otgruzheno",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/rabochee-mesto-ustanovki-otgruzheno.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 33,
+  "frontMatter": {
+    "sidebar_position": 33
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Проверка корректности дебиторской задолженности",
+    "permalink": "/docs/tutorial-other/proverka-korrektnosti-debitorskoj-zadolzhennosti"
+  },
+  "next": {
+    "title": "Себестоимость приобретения до расчета себестоимости",
+    "permalink": "/docs/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti"
+  }
+}

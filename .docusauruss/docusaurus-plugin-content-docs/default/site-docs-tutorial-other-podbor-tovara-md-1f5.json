@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/podbor-tovara",
+  "title": "Подбор товара",
+  "description": "Подбор товара теперь формируется с учётом установленных уточнений по ценам и с учетом общего вида цены, указанного в соглашении.",
+  "source": "@site/docs/tutorial-other/podbor-tovara.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/podbor-tovara",
+  "permalink": "/docs/tutorial-other/podbor-tovara",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/podbor-tovara.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 26,
+  "frontMatter": {
+    "sidebar_position": 26
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Заявка на возврат товаров",
+    "permalink": "/docs/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov"
+  },
+  "next": {
+    "title": "Полная выгрузка Битрикс",
+    "permalink": "/docs/tutorial-other/polnaya-vygruzka-bitriks"
+  }
+}

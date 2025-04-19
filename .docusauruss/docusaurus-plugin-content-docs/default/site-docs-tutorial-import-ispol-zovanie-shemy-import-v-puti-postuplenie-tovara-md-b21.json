@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara",
+  "title": "Использование схемы Импорт в пути Поступление товара",
+  "description": "Для оформления документа «Поступление товаров и услуг» перейдем в рабочее место «Накладные к оформлению» в разделе «Закупки» - «Накладные к оформлению» - «К оформлению поступления». Нажимаем «Оформить» - «Поступление товаров».",
+  "source": "@site/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara.md",
+  "sourceDirName": "tutorial-import",
+  "slug": "/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara",
+  "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Использование схемы импорт в пути полная",
+    "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-tovary-v-puti-dlya-oformleniya-zakupok-po-importu-v-sisteme"
+  },
+  "next": {
+    "title": "Использование схемы Импорт в пути Таможенная декларация",
+    "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya"
+  }
+}

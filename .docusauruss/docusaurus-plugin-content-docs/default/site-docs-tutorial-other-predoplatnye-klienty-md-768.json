@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/predoplatnye-klienty",
+  "title": "Предоплатные клиенты",
+  "description": "Установка предоплаты в соглашении",
+  "source": "@site/docs/tutorial-other/predoplatnye-klienty.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/predoplatnye-klienty",
+  "permalink": "/docs/tutorial-other/predoplatnye-klienty",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/predoplatnye-klienty.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 30,
+  "frontMatter": {
+    "sidebar_position": 30
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Предоплатные клиенты обн. 2024-04-27",
+    "permalink": "/docs/tutorial-other/predoplatnye-klienty-obn-2024-04-27"
+  },
+  "next": {
+    "title": "Проверить на ПДЗ",
+    "permalink": "/docs/tutorial-other/proverit-na-pdz"
+  }
+}

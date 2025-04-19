@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki",
+  "title": "Добавление нового элемента в Реестр доставки",
+  "description": "Чтобы в 1С: УТ добавить новый элемент в Реестр доставки, необходимо зайти в раздел Расширение А Зет – далее Реестр доставки.",
+  "source": "@site/docs/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki",
+  "permalink": "/docs/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Выгрузка реализаций в DBF",
+    "permalink": "/docs/tutorial-other/vygruzka-realizaczij-v-dbf"
+  },
+  "next": {
+    "title": "Добавление отбора в отчет Все отгруженные накладные",
+    "permalink": "/docs/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye"
+  }
+}

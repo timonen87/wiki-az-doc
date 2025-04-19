@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-ecomm/instrukciya-sbermegamarket",
+  "title": "Инструкция СберМегаМаркет",
+  "description": "Инструкция написана для версии 1.0.1.10.",
+  "source": "@site/docs/tutorial-ecomm/instrukciya-sbermegamarket.md",
+  "sourceDirName": "tutorial-ecomm",
+  "slug": "/tutorial-ecomm/instrukciya-sbermegamarket",
+  "permalink": "/docs/tutorial-ecomm/instrukciya-sbermegamarket",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-ecomm/instrukciya-sbermegamarket.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Создание предварительной карточки Партнера",
+    "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera"
+  },
+  "next": {
+    "title": "Инструкция Wildberries",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-wildberries"
+  }
+}

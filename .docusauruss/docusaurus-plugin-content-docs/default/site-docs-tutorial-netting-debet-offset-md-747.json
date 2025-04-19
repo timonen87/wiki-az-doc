@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-netting/debet-offset",
+  "title": "Взаимозачет задолженности",
+  "description": "Для оформления операций взаимозачета предназначен документ Казначейство – Взаимозачеты и списание задолженности – Взаимозачет задолженности.",
+  "source": "@site/docs/tutorial-netting/debet-offset.md",
+  "sourceDirName": "tutorial-netting",
+  "slug": "/tutorial-netting/debet-offset",
+  "permalink": "/docs/tutorial-netting/debet-offset",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-netting/debet-offset.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Взаимозачет",
+    "permalink": "/docs/category/взаимозачет"
+  },
+  "next": {
+    "title": "Установка и Обновления ",
+    "permalink": "/docs/category/установка-и-обновления-"
+  }
+}

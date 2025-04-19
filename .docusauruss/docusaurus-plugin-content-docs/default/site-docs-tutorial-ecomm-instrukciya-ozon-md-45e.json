@@ -1,0 +1,20 @@
+{
+  "id": "tutorial-ecomm/instrukciya-ozon",
+  "title": "Инструкция Ozon",
+  "description": "Инструкция написана для версии 0.0.0.40.",
+  "source": "@site/docs/tutorial-ecomm/instrukciya-ozon.md",
+  "sourceDirName": "tutorial-ecomm",
+  "slug": "/tutorial-ecomm/instrukciya-ozon",
+  "permalink": "/docs/tutorial-ecomm/instrukciya-ozon",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-ecomm/instrukciya-ozon.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Инструкция ЯндексМаркет",
+    "permalink": "/docs/tutorial-ecomm/instrukciya-yandeksmarket"
+  }
+}

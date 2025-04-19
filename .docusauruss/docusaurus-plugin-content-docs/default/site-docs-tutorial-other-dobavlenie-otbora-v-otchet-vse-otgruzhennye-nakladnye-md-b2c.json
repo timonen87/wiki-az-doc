@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye",
+  "title": "Добавление отбора в отчет Все отгруженные накладные",
+  "description": "Логика работы отбора «Отгружено только по актам»",
+  "source": "@site/docs/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye",
+  "permalink": "/docs/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/dobavlenie-otbora-v-otchet-vse-otgruzhennye-nakladnye.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Добавление нового элемента в Реестр доставки",
+    "permalink": "/docs/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki"
+  },
+  "next": {
+    "title": "Доставка (добавление распоряжений с других складов)",
+    "permalink": "/docs/tutorial-other/dostavka-dobavlenie-rasporyazhenij-s-drugikh-skladov"
+  }
+}

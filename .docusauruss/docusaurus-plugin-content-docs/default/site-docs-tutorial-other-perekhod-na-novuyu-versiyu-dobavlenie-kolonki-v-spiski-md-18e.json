@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski",
+  "title": "Добавление колонки в списки",
+  "description": "Для того что бы в список (номенклатуры, документов и т.п.) добавить Колонку которой нет в списке:",
+  "source": "@site/docs/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski",
+  "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Переход на новую версию 1с Торговля",
+    "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya"
+  },
+  "next": {
+    "title": "Заявка на возврат товаров",
+    "permalink": "/docs/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov"
+  }
+}

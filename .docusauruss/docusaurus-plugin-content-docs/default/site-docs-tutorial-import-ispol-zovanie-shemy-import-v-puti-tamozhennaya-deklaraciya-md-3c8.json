@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya",
+  "title": "Использование схемы Импорт в пути Таможенная декларация",
+  "description": "Ввести таможенную декларацию можно на основании документа «Приобретение товаров и услуг», либо в специальном рабочем месте. Воспользуемся вторым вариантом.",
+  "source": "@site/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya.md",
+  "sourceDirName": "tutorial-import",
+  "slug": "/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya",
+  "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Использование схемы Импорт в пути Поступление товара",
+    "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-postuplenie-tovara"
+  },
+  "next": {
+    "title": "Как оформить поставку из стран ЕАЭС",
+    "permalink": "/docs/tutorial-import/kak-oformit-postavku-iz-stran-eaes"
+  }
+}

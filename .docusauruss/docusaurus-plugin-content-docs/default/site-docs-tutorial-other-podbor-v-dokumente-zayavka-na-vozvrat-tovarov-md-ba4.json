@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov",
+  "title": "Заявка на возврат товаров",
+  "description": "Подбор товаров в заявке на возврат",
+  "source": "@site/docs/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov",
+  "permalink": "/docs/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/podbor-v-dokumente-zayavka-na-vozvrat-tovarov.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Добавление колонки в списки",
+    "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski"
+  },
+  "next": {
+    "title": "Подбор товара",
+    "permalink": "/docs/tutorial-other/podbor-tovara"
+  }
+}

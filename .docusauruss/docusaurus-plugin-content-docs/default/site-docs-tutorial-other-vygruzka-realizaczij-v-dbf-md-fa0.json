@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/vygruzka-realizaczij-v-dbf",
+  "title": "Выгрузка реализаций в DBF",
+  "description": "Выгрузка в DBF",
+  "source": "@site/docs/tutorial-other/vygruzka-realizaczij-v-dbf.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/vygruzka-realizaczij-v-dbf",
+  "permalink": "/docs/tutorial-other/vygruzka-realizaczij-v-dbf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/vygruzka-realizaczij-v-dbf.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Акт сверки расчетов по нескольким контрагентам",
+    "permalink": "/docs/tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam"
+  },
+  "next": {
+    "title": "Добавление нового элемента в Реестр доставки",
+    "permalink": "/docs/tutorial-other/dobavlenie-novogo-elementa-v-reestr-dostavki"
+  }
+}

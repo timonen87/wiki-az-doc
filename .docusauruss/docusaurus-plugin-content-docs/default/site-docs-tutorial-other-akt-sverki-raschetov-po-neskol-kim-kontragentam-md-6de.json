@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam",
+  "title": "Акт сверки расчетов по нескольким контрагентам",
+  "description": "Сверка взаимных расчетов",
+  "source": "@site/docs/tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam",
+  "permalink": "/docs/tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/akt-sverki-raschetov-po-neskol-kim-kontragentam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Разное",
+    "permalink": "/docs/category/разное"
+  },
+  "next": {
+    "title": "Выгрузка реализаций в DBF",
+    "permalink": "/docs/tutorial-other/vygruzka-realizaczij-v-dbf"
+  }
+}

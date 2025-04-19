@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040",
+  "title": "Установка новой весрии программы 8.3.23.2040",
+  "description": "Для всех пользователей программы, работающих через VPN соединение, необходимо самостоятельно установить новую версию платформы 1С, после обновления сервера 1С, работа со старой версией платформы в программе будет невозможна.",
+  "source": "@site/docs/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040.md",
+  "sourceDirName": "tutorial-update-install",
+  "slug": "/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040",
+  "permalink": "/docs/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Установка категорий по списку товара",
+    "permalink": "/docs/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara"
+  },
+  "next": {
+    "title": "Установка цен",
+    "permalink": "/docs/tutorial-update-install/ustanovka-cen"
+  }
+}

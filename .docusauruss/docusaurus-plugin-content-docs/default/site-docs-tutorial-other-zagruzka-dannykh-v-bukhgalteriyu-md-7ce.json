@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/zagruzka-dannykh-v-bukhgalteriyu",
+  "title": "Загрузка данных в бухгалтерию",
+  "description": "Необходимые настройки",
+  "source": "@site/docs/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu",
+  "permalink": "/docs/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Загрузка маркетинго-логистических параметров",
+    "permalink": "/docs/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov"
+  },
+  "next": {
+    "title": "Заказ на перемещение",
+    "permalink": "/docs/tutorial-other/zakaz-na-peremeshhenie"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti",
+  "title": "Себестоимость приобретения до расчета себестоимости",
+  "description": "Если нужна оперативная себестоимость без расчета СС, то есть отчет в разделе «Расширения АЗ» - «Отчеты» - «Поступления новый».",
+  "source": "@site/docs/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti",
+  "permalink": "/docs/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/sebestoimost-priobreteniya-do-rascheta-sebestoimosti.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 34,
+  "frontMatter": {
+    "sidebar_position": 34
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Рабочее место установки Отгружено",
+    "permalink": "/docs/tutorial-other/rabochee-mesto-ustanovki-otgruzheno"
+  },
+  "next": {
+    "title": "Создание предварительной карточки Номенклатуры",
+    "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury"
+  }
+}

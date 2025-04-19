@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-update-install/obnovlenie-2024-04-04",
+  "title": "2024-04-04 Обновление",
+  "description": "Видеоинструкция",
+  "source": "@site/docs/tutorial-update-install/obnovlenie-2024-04-04.md",
+  "sourceDirName": "tutorial-update-install",
+  "slug": "/tutorial-update-install/obnovlenie-2024-04-04",
+  "permalink": "/docs/tutorial-update-install/obnovlenie-2024-04-04",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-update-install/obnovlenie-2024-04-04.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Установка и Обновления ",
+    "permalink": "/docs/category/установка-и-обновления-"
+  },
+  "next": {
+    "title": "2024-04-10 Обновление  УТ и Бухгалтерии",
+    "permalink": "/docs/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya",
+  "title": "Переход на новую версию 1с Торговля",
+  "description": "Подключение и запуск новой версии базы «Торговля», вход в базу",
+  "source": "@site/docs/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya",
+  "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 23,
+  "frontMatter": {
+    "sidebar_position": 23
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Обмен Смарт Аптека",
+    "permalink": "/docs/tutorial-other/obmen-smartapteka"
+  },
+  "next": {
+    "title": "Добавление колонки в списки",
+    "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-dobavlenie-kolonki-v-spiski"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov",
+  "title": "Корректировка реализации приобретения до ввода остатков",
+  "description": "Из списка «Документы отгрузки (все)» или «Документы закупки (все)»",
+  "source": "@site/docs/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov",
+  "permalink": "/docs/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Изменение дата платежа",
+    "permalink": "/docs/tutorial-other/ruchnoe-izmenenie-daty-platezha"
+  },
+  "next": {
+    "title": "Платежный день - Инструкция по функционалу",
+    "permalink": "/docs/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den"
+  }
+}

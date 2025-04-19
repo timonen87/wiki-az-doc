@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den",
+  "title": "Платежный день - Инструкция по функционалу",
+  "description": "В учетную систему «А Зет Управление торговлей» добавлен функционал «Платежный день», который позволяет в соглашении с клиентом установить платежный день недели один или несколько для более корректного расчета даты платежа.",
+  "source": "@site/docs/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den",
+  "permalink": "/docs/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Корректировка реализации приобретения до ввода остатков",
+    "permalink": "/docs/tutorial-other/korrektirovka-realizaczii_priobreteniya-do-vvoda-ostatkov"
+  },
+  "next": {
+    "title": "Инструкция по настройке ДИАДОК",
+    "permalink": "/docs/tutorial-other/instrukcziya-po-nastrojke-diadok"
+  }
+}

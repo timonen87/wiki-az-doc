@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-import/kak-oformit-postavku-iz-stran-eaes",
+  "title": "Как оформить поставку из стран ЕАЭС",
+  "description": "Как оформить поставку товаров из стран ЕАЭС?",
+  "source": "@site/docs/tutorial-import/kak-oformit-postavku-iz-stran-eaes.md",
+  "sourceDirName": "tutorial-import",
+  "slug": "/tutorial-import/kak-oformit-postavku-iz-stran-eaes",
+  "permalink": "/docs/tutorial-import/kak-oformit-postavku-iz-stran-eaes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-import/kak-oformit-postavku-iz-stran-eaes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Использование схемы Импорт в пути Таможенная декларация",
+    "permalink": "/docs/tutorial-import/ispol-zovanie-shemy-import-v-puti-tamozhennaya-deklaraciya"
+  },
+  "next": {
+    "title": "Разное",
+    "permalink": "/docs/category/разное"
+  }
+}

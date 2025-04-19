@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-accounting/uploading-a-re-presentation-of-services",
+  "title": "Загрузка перевыставления услуг",
+  "description": "_Открытие обработки и первичные настройки_",
+  "source": "@site/docs/tutorial-accounting/uploading-a-re-presentation-of-services.md",
+  "sourceDirName": "tutorial-accounting",
+  "slug": "/tutorial-accounting/uploading-a-re-presentation-of-services",
+  "permalink": "/docs/tutorial-accounting/uploading-a-re-presentation-of-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-accounting/uploading-a-re-presentation-of-services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Бухгалтерия",
+    "permalink": "/docs/category/бухгалтерия"
+  },
+  "next": {
+    "title": "CiscoAnyConnect",
+    "permalink": "/docs/category/ciscoanyconnect"
+  }
+}

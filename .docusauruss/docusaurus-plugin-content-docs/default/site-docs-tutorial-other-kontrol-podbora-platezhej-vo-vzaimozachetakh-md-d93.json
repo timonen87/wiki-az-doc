@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh",
+  "title": "Контроль подбора платежей во взаимозачетах",
+  "description": "При нажатии кнопки «Подобрать по остаткам» на закладке «Дебиторская задолженность» в форме подбора сумм платежей добавлены кнопки «На сумму», «Без Ограничений» и поле «Сумма погашения». При нажатии кнопки «На сумму» и при выборе первого платежа, остальные выбираются автоматически на сумму погашения по списку. Выбрать сверх суммы погашения платежи нельзя. При нажатии кнопки «Без ограничений» можно выбирать  платежи произвольно. При превышении суммы погашения выдается предупреждение и кнопка «Перенести в документ» блокируется.",
+  "source": "@site/docs/tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh",
+  "permalink": "/docs/tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Инструкция по настройке ДИАДОК",
+    "permalink": "/docs/tutorial-other/instrukcziya-po-nastrojke-diadok"
+  },
+  "next": {
+    "title": "Настройка отчётов в программе 1С",
+    "permalink": "/docs/tutorial-other/nastrojka-otchyotov-v-programme-1s"
+  }
+}

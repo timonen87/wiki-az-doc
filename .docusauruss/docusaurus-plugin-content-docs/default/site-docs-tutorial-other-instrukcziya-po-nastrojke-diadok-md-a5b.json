@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/instrukcziya-po-nastrojke-diadok",
+  "title": "Инструкция по настройке ДИАДОК",
+  "description": "1. Через меню Файл – Открыть запустите файл ДиадокВключениеПлагинов.epf",
+  "source": "@site/docs/tutorial-other/instrukcziya-po-nastrojke-diadok.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/instrukcziya-po-nastrojke-diadok",
+  "permalink": "/docs/tutorial-other/instrukcziya-po-nastrojke-diadok",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/instrukcziya-po-nastrojke-diadok.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Платежный день - Инструкция по функционалу",
+    "permalink": "/docs/tutorial-other/instrukcziya-po-funkczionalu-platezhnyj-den"
+  },
+  "next": {
+    "title": "Контроль подбора платежей во взаимозачетах",
+    "permalink": "/docs/tutorial-other/kontrol-podbora-platezhej-vo-vzaimozachetakh"
+  }
+}

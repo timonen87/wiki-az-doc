@@ -1,0 +1,23 @@
+{
+  "id": "tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera",
+  "title": "Создание предварительной карточки Партнера",
+  "description": "Шаблон для внесения партнёра в базу",
+  "source": "@site/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera",
+  "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-partnera.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 38,
+  "frontMatter": {
+    "sidebar_position": 38
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Создание предварительной карточки Номенклатуры",
+    "permalink": "/docs/tutorial-other/sozdanie-predvaritelnoj-kartochki-nomenklatury"
+  }
+}

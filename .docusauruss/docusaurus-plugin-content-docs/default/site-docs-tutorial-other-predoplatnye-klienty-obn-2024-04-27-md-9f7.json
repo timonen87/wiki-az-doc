@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/predoplatnye-klienty-obn-2024-04-27",
+  "title": "Предоплатные клиенты обн. 2024-04-27",
+  "description": "Установка предоплаты в соглашении",
+  "source": "@site/docs/tutorial-other/predoplatnye-klienty-obn-2024-04-27.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/predoplatnye-klienty-obn-2024-04-27",
+  "permalink": "/docs/tutorial-other/predoplatnye-klienty-obn-2024-04-27",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/predoplatnye-klienty-obn-2024-04-27.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 29,
+  "frontMatter": {
+    "sidebar_position": 29
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Полная выгрузка Битрикс",
+    "permalink": "/docs/tutorial-other/polnaya-vygruzka-bitriks"
+  },
+  "next": {
+    "title": "Предоплатные клиенты",
+    "permalink": "/docs/tutorial-other/predoplatnye-klienty"
+  }
+}

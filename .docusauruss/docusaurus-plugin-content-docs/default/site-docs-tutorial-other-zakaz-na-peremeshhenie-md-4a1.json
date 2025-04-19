@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/zakaz-na-peremeshhenie",
+  "title": "Заказ на перемещение",
+  "description": "Заказ на перемещение, разные склады, на будущую дату",
+  "source": "@site/docs/tutorial-other/zakaz-na-peremeshhenie.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/zakaz-na-peremeshhenie",
+  "permalink": "/docs/tutorial-other/zakaz-na-peremeshhenie",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/zakaz-na-peremeshhenie.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Загрузка данных в бухгалтерию",
+    "permalink": "/docs/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu"
+  },
+  "next": {
+    "title": "Иерархия номенклатуры",
+    "permalink": "/docs/tutorial-other/ierarkhiya-nomenklatury"
+  }
+}

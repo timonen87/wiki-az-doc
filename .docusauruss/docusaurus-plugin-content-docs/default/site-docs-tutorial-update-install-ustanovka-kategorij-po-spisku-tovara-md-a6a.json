@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-update-install/ustanovka-kategorij-po-spisku-tovara",
+  "title": "Установка категорий по списку товара",
+  "description": "Загрузка категорий анализа",
+  "source": "@site/docs/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara.md",
+  "sourceDirName": "tutorial-update-install",
+  "slug": "/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara",
+  "permalink": "/docs/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-update-install/ustanovka-kategorij-po-spisku-tovara.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "2024-04-10 Обновление  УТ и Бухгалтерии",
+    "permalink": "/docs/tutorial-update-install/obnovlenie-ut-i-buhgalterii-ot-2024-04-10"
+  },
+  "next": {
+    "title": "Установка новой весрии программы 8.3.23.2040",
+    "permalink": "/docs/tutorial-update-install/ustanovka-novoj-vesrii-programmy-8-3-23-2040"
+  }
+}

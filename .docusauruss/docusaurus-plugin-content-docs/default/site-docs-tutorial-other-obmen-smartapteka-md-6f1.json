@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/obmen-smartapteka",
+  "title": "Обмен Смарт Аптека",
+  "description": "Обмен «Смарт аптека»",
+  "source": "@site/docs/tutorial-other/obmen-smartapteka.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/obmen-smartapteka",
+  "permalink": "/docs/tutorial-other/obmen-smartapteka",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/obmen-smartapteka.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 22,
+  "frontMatter": {
+    "sidebar_position": 22
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Настройка отчётов в программе 1С",
+    "permalink": "/docs/tutorial-other/nastrojka-otchyotov-v-programme-1s"
+  },
+  "next": {
+    "title": "Переход на новую версию 1с Торговля",
+    "permalink": "/docs/tutorial-other/perekhod-na-novuyu-versiyu-1s-torgovlya"
+  }
+}

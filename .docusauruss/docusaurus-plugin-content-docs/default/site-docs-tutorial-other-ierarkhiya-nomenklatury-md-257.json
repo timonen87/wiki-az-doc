@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/ierarkhiya-nomenklatury",
+  "title": "Иерархия номенклатуры",
+  "description": "Изменение вида просмотра справочника на иерархию",
+  "source": "@site/docs/tutorial-other/ierarkhiya-nomenklatury.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/ierarkhiya-nomenklatury",
+  "permalink": "/docs/tutorial-other/ierarkhiya-nomenklatury",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/ierarkhiya-nomenklatury.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Заказ на перемещение",
+    "permalink": "/docs/tutorial-other/zakaz-na-peremeshhenie"
+  },
+  "next": {
+    "title": "Изменение дата платежа",
+    "permalink": "/docs/tutorial-other/ruchnoe-izmenenie-daty-platezha"
+  }
+}

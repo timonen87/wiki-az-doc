@@ -1,0 +1,27 @@
+{
+  "id": "tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov",
+  "title": "Загрузка маркетинго-логистических параметров",
+  "description": "В подсистеме «ВЭД» в группе «Сервис» добавлена обработка загрузки логистических параметров номенклатуры.",
+  "source": "@site/docs/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov.md",
+  "sourceDirName": "tutorial-other",
+  "slug": "/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov",
+  "permalink": "/docs/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/timonen87/wiki-az-doc/tree/main/frontend/docs/tutorial-other/zagruzka-marketingo-logisticheskikh-parametrov.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Едисофт первый запуск",
+    "permalink": "/docs/tutorial-other/edisoft-pervyj-zapusk"
+  },
+  "next": {
+    "title": "Загрузка данных в бухгалтерию",
+    "permalink": "/docs/tutorial-other/zagruzka-dannykh-v-bukhgalteriyu"
+  }
+}
