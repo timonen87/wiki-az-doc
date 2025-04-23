@@ -8,7 +8,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://wikiaz.ru",
+  url: "https://docs.siteunion.online",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -103,8 +103,8 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Блог', position: 'left'},
         {
-          to: "https://wikiapp.ru",
-          label: "WikiApp",
+          to: "https://catalog.azcompany.ru",
+          label: "catalog.App",
           position: "left",
         },
         {
@@ -130,8 +130,8 @@ const config: Config = {
           title: "Каталог продукции",
           items: [
             {
-              label: "WikiApp",
-              href: "https://wikiapp.ru/",
+              label: "Catalog.AZ",
+              href: "https://catalog.azcompany.ru/",
             },
           ],
         },

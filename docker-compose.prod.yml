@@ -28,7 +28,7 @@ services:
   #   volumes:
   #     - production_traefik:/etc/traefik/acme
   #   ports:
-  #     - "0.0.0.0:82:82"
+  #     - "0.0.0.0:80:80"
   #     - "0.0.0.0:445:445"
 
   nginx:
@@ -37,7 +37,7 @@ services:
       dockerfile: ./compose/production/nginx/Dockerfile
     image: app_production_nginx
     ports:
-      - 1118:82
+      - 1118:80
     depends_on:
       - app
     volumes:
