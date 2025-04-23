@@ -36,8 +36,8 @@ services:
       context: .
       dockerfile: ./compose/production/nginx/Dockerfile
     image: app_production_nginx
-    ports:
-      - 1118:80
+    # ports:
+    #   - 1118:80
     depends_on:
       - app
     volumes:
