@@ -28,7 +28,7 @@ certificatesResolvers:
 http:
   routers:
     vue-secure-router:
-      rule: "Host(`wiki.azcompany.ru`) || Host(`www.wiki.azcompany.ru`)"
+      rule: "Host(`wiki.azcompany.ru`)"
       entryPoints:
         - web-secure
       service: app
