@@ -13,11 +13,11 @@ sidebar_position: 10
 
 Справочник переходи в показ номенклатуры по иерархии.
 
-![](./img/ierarkhiya-nomenklatury/Aspose.Words.5c57d24c-6b8c-4d0a-989e-78dcf7f1d62e.001.png)
+![](./assets/Aspose.Words.5c57d24c-6b8c-4d0a-989e-78dcf7f1d62e.001.png)
 
 Снимаем галочку «Иерархия номенклатуры»
 
-![](./img/ierarkhiya-nomenklatury/Aspose.Words.5c57d24c-6b8c-4d0a-989e-78dcf7f1d62e.002.png)
+![](./assets/Aspose.Words.5c57d24c-6b8c-4d0a-989e-78dcf7f1d62e.002.png)
 
 Готово. Теперь справочник будет показываться с иерархией.
 

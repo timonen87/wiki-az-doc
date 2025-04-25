@@ -7,7 +7,7 @@ sidebar_position: 6
 ## Запуск модуля ЭДО Едисофт
 Переходим в раздел Продажи – Сервис – Дополнительные обработки
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.001.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.001.png)
 
 Если в окне «Дополнительные обработки» пусто, то нажимаем кнопку «Настроить список».
 
@@ -15,11 +15,11 @@ sidebar_position: 6
 
 Далее запускаем обработку кнопкой Выполнить.
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.002.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.002.png)
 
 Открываем «Настройки»
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.003.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.003.png)
 
 Переходим на вкладку «Настройки внешней БД», указываем настройки:
 
@@ -35,7 +35,7 @@ sidebar_position: 6
 
 Нажимаем кнопку «Подключится к БД», если все хорошо кнопка станет зеленой, в противном случае проверяем настройки заново.
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.004.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.004.png)
 
 
 
@@ -57,7 +57,7 @@ sidebar_position: 6
 
 Temp: C:\Edisoft\Temp\ (эту папку нужно предварительно создать на диске «С», если её нет)
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.005.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.005.png)
 
 Переходим на страницу «Настройки модуля»
 
@@ -73,13 +73,13 @@ SKU 1
 
 Далее добавляем поля поиска номенклатуры, ниже скрины
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.006.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.006.png)
 
 Нажимаем кнопку Добавить (зеленый плюс), и так три раза, не забывая нажать записать
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.007.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.007.png)
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.008.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.008.png)
 
-![](./img/edisoft-pervyj-zapusk/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.009.png)
+![](./assets/Aspose.Words.4609e900-35bb-4c22-9701-a8cf0a51addf.009.png)
 

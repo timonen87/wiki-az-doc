@@ -7,9 +7,9 @@ sidebar_position: 7
 
 В подсистеме «ВЭД» в группе «Сервис» добавлена обработка загрузки логистических параметров номенклатуры.  
 
-![](./img/zagruzka-marketingo-logisticheskikh-parametrov/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.001.png)
+![](./assets/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.001.png)
 
-![](./img/zagruzka-marketingo-logisticheskikh-parametrov/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.002.png)
+![](./assets/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.002.png)
 
 ## Загрузить коды ТНВЭД
 Для загрузки заполняем колонки:
@@ -24,7 +24,7 @@ sidebar_position: 7
 
 Загрузка происходит по нажатию кнопки «Загрузить».
 
-![](./img/zagruzka-marketingo-logisticheskikh-parametrov/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.003.png)
+![](./assets/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.003.png)
 
 
 ## Загрузить коды ТНВЭД
@@ -40,7 +40,7 @@ sidebar_position: 7
 
 Загрузка происходит по нажатию кнопки «Загрузить».
 
-![](./img/zagruzka-marketingo-logisticheskikh-parametrov/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.004.png)
+![](./assets/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.004.png)
 
 ## Загрузить/Создать группу заказа
 Загрузка ищет существующие группы заказа в базе, и перезаполняет их, если они были найдены, или создает новые группы заказа. 
@@ -53,4 +53,4 @@ sidebar_position: 7
 
 Загрузка происходит по нажатию кнопки «Загрузить».
 
-![](./img/zagruzka-marketingo-logisticheskikh-parametrov/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.005.png)
+![](./assets/Aspose.Words.7f6e6dc8-0117-40b9-af9f-76469d042628.005.png)
